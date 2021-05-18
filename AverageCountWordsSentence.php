@@ -5,6 +5,7 @@
  *
  * @return int
  */
-function averageCountWordsSentence( int $countSentences, int $countWords ): int {
-    return round( $countWords / $countSentences, 2 );
+function averageCountWordsSentence(int $countSentences, int $countWords): int
+{
+    return round($countWords / $countSentences, 2);
 }
